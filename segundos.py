@@ -1,0 +1,6 @@
+dias=int(input("Digite o total de dias: "))
+horas=int(input("Digite o total de horas: "))
+minutos=int(input("Digite o total de minutos: "))
+segundos=int(input("Digite o total de segundos: "))
+tempo_total=(dias*24*60*60)+(horas*60*60)+(minutos*60)+(segundos)
+print("O tempo total foi de: ", tempo_total)
